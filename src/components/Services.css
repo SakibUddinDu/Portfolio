@@ -1,0 +1,67 @@
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.services {
+  background: #2a2e4d;
+  padding: 50px 0;
+  color: #fff;
+}
+
+.heading {
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: #ff4a57;
+  font-size: 16px;
+}
+.mainHeader {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.mainContent {
+  font-size: 16px;
+  color: #dfdfdf;
+}
+.commonBorder {
+  background: #ff4a57;
+  height: 3px;
+  width: 100px;
+  margin: 30px auto;
+}
+
+.services__box {
+  padding: 40px;
+  background: #1a1c2b;
+  color: #fff;
+  margin: 20px;
+  transition: all 0.5s linear;
+}
+.services__box:hover {
+  background: #ff4a57;
+}
+.commonIcons {
+  font-size: 40px;
+  color: #ff4a57;
+  margin-bottom: 15px;
+}
+.services__box:hover .commonIcons {
+  color: #fff;
+}
+.services__box-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.services__box-p {
+  font-size: 14px;
+  color: #dfdfdf;
+}
+.zoom {
+  transition: transform 1s;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
